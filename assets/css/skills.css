@@ -1,0 +1,68 @@
+#skills {
+    /* display: flex;
+    justify-content: space-around;
+    margin-top: 40px; 
+    */
+    margin-top: 155px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.skills-icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+#html {
+    width: 8.3%;
+}
+
+#css {
+    width: 7%;
+}
+
+#js {
+    width: 7%;
+}
+
+#node {
+    width: 8%;
+}
+
+#react {
+    width: 7%;
+}
+
+#wordpress {
+    width: 8%;
+}
+
+#logo-alura {
+    width: 60%;
+    margin-left: 130%;
+}
+
+@media screen and (max-width: 768px) {
+    #skills {
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 0;
+    }
+
+    .skills-icons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #html, #css, #js, #node, #react, #wordpress {
+        width: 30%;
+        margin-bottom: 20px;
+    }
+
+    #logo-alura {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+}

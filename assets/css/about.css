@@ -1,0 +1,30 @@
+#about {
+
+    margin-top: 20px;
+    padding-top: 100px;
+}
+
+#about-text {
+    margin-right: 40%;
+}
+
+.about-me {
+    padding: 20px;
+    margin: 20px 0;
+    margin-right: 40%;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    #about-text {
+        margin-right: 0;
+    }
+
+    .about-me {
+        margin-right: 0;
+    }
+    .about-me h2 {
+        font-size: 1.5rem;
+    }   
+    
+}
