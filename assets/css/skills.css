@@ -1,10 +1,21 @@
+#skills-section {
+    margin-top: 200px;
+    
+}
+
+#skills-title {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
 #skills {
     /* display: flex;
     justify-content: space-around;
     margin-top: 40px; 
     */
-    margin-top: 155px;
-    padding-top: 150px;
+    margin-top: 200px;
+    padding-top: 0;
     padding-bottom: 150px;
 }
 
@@ -12,6 +23,12 @@
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
+}
+
+#express-icon{
+    background-color: #ffffff;  
+    padding: 18px;
+    border-radius: 20px;
 }
 
 #html {
@@ -38,17 +55,54 @@
     width: 8%;
 }
 
+#express{
+    width: 90%;
+}
+
+#tailwind {
+    width: 8%;
+}
+
+#postgre{
+    width: 8%;
+}
+
+#python {
+    width: 8%;
+}
+
+#bootstrap {
+    width: 8%;
+}
+
+#docker{
+    width: 8%;
+}
+
 #logo-alura {
     width: 60%;
     margin-left: 130%;
 }
 
 @media screen and (max-width: 768px) {
+    #skills-title {        
+        position: relative;
+        top:10%;        
+    }
+    
     #skills {
+        display: flex;
         padding-top: 0;
         padding-bottom: 0;
         margin-top: 0;
+        /* margin-right: 30%; */
+        align-content: space-around;
+     
+        
     }
+
+    
+    
 
     .skills-icons {
         flex-direction: column;
@@ -56,7 +110,28 @@
     }
 
     #html, #css, #js, #node, #react, #wordpress {
-        width: 30%;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    #express-icon {
+        width: 10%;
+        position: relative;
+        top:6px;
+        margin-bottom: 10px;    
+        padding:15px 35px 15px 35px;
+        border-radius: 10px;
+    }
+    #express {
+        width: 300%;
+        position: relative;
+        right: 60%;
+        top:10%;
+        margin-left: -8px;
+        /* margin-bottom: -20px; */
+    }
+    #tailwind, #postgre, #python, #bootstrap, #docker {
+        width: 50%;
         margin-bottom: 20px;
     }
 
