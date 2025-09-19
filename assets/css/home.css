@@ -42,10 +42,13 @@
         margin-right: 0;
         padding: 10px;
     }
-
+    .imagePerfil{
+        margin-top:20px;
+    }
     .profile-image {
         width: 150px;
         height: 200px;
+        margin-top: 0;
     }
     .home-me-text {
         font-size: 1em;
